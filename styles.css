@@ -37,6 +37,11 @@ header button {
   width: 100px;
 }
 
+header button:hover {
+  color: hsl(321, 81%, 85%);
+  border: 1px solid hsl(321, 81%, 85%)
+}
+
 button {
   background-color: hsl(322, 100%, 66%);
   color: white;
@@ -47,6 +52,11 @@ button {
   margin: 10px 0;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: hsl(322, 82%, 74%);
 }
 
 .start {
